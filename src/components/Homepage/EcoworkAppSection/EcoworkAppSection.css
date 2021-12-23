@@ -1,0 +1,211 @@
+.headingFont {
+  font: 900 48px Lato;
+}
+
+.subHeadingFont {
+  font: normal 18px Lato;
+  padding: 25px 0 25px 0;
+}
+
+.ecoworkAppCol {
+  left: 28%;
+  transform: translateX(-28%) translateY(30%);
+}
+
+.ecoworkappSection {
+  padding-top: 61px;
+  overflow-y: hidden;
+ 
+} 
+
+.ecoworkappSectioncontainer{
+  background-image: url("./../../../assests/images/ecoappbg.png");
+  background-position-y: 55px; 
+  /* background-position-x: -488px; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  
+}
+
+.playstore {
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.appstore{
+cursor: pointer;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .playstore {
+    width: 100%;
+    max-width: 233px;
+    margin-left: 20px;
+  }
+
+  .appstore {
+    max-width: 198px;
+    width: 100%;
+    height: auto;
+  }
+
+  .ecoworkAppCol {
+    left: 28%;
+    transform: translateX(-39%) translateY(8%) !important;
+  }
+
+  img.mobile {
+    max-width: 450px;
+    width: 100%;
+    margin-left: 86px;
+    padding-left: 0px;
+    height: auto;
+}
+
+  .instagramRow1 {
+    left: 28%;
+    transform: translateX(-45%) translateY(30%);
+  }
+
+  .heading {
+    font: 900 38px Lato;
+    padding: 15px 0 17px 0;
+    color: #085078;
+  }
+
+  .instagramRow2 {
+    left: 20%;
+    transform: translateX(-29%) translateY(32%);
+  }
+
+  .emailsubmitbtn {
+    background-color: #fff5d6;
+    border-color: white;
+    margin-left: -52px;
+    margin-top: 0px;
+    border: none;
+  }
+
+  .emailform {
+    transform: translateX(21%) translateY(-3%);
+  }
+
+  .emailCaption {
+    transform: translateX(28%) translateY(-37%);
+    font: 900 37px Lato;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  img.mobile {
+    max-width: 475px;
+  }
+
+  .ecoworkAppCol {
+    left: 27%;
+    transform: translateX(-48%) translateY(29%) !important;
+  }
+
+  .headingFont {
+    font: 900 43px Lato;
+  }
+
+  img.appstore {
+    max-width: 150px;
+  }
+
+  img.playstore {
+    max-width: 185px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  /* .ecoworkAppCol {
+    left: 37%;
+    transform: translateX(3%) translateY(30%);
+} */
+
+  .ecoworkappSection {
+    padding-top: 61px;
+    overflow-y: hidden;
+    padding-left: 75px;
+  }
+
+  .store {
+    position: relative;
+    top: 509px;
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .ecoworkappSection {
+    margin-top: -160px;
+    overflow-y: hidden;
+    height: 954px;
+  }
+
+  .headingFont {
+    font: 900 39px Lato;
+  }
+
+  .subHeadingFont {
+    font: normal 17px Lato;
+    padding: 25px 0 25px 0;
+  }
+
+  .store {
+    position: absolute;
+    top: 717px;
+    left: 73px;
+  }
+
+  img.appstore {
+    max-width: 132px;
+  }
+
+  img.playstore {
+    max-width: 171px;
+  }
+
+  img.mobile {
+    max-width: 387px;
+    padding-left: 65px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  img.mobile {
+    max-width: 256px;
+    margin-top: -124px;
+    padding-left: 21px;
+  }
+
+  .headingFont {
+    font: 900 26px Lato;
+  }
+
+  .store {
+    position: relative;
+    top: 319px;
+    left: 22px;
+  }
+
+  img.appstore {
+    max-width: 106px;
+  }
+
+  .playstore {
+    padding-left: 24px;
+    max-width: 131px;
+  }
+
+  .ecoworkappSection {
+    margin-top: -222px;
+    overflow-y: hidden;
+    height: 954px;
+  }
+}

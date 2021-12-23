@@ -1,0 +1,38 @@
+.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters {
+  position: relative;
+  top: -70px;
+  margin-top: 50px;
+}
+
+.Component-horizontalScrollContainer-12 {
+  margin-top: -65px;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft {
+  background-color: #095178;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignRight {
+  background-color: #095178;
+  color: white;
+  cursor: pointer;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-paddingCheckbox {
+  background-color: #095178;
+  color: white;
+}
+
+h6.MuiTypography-root.MuiTypography-h6 {
+    font: bold 25px Lato;
+}
+
+.MuiFormControl-root.MuiTextField-root.MTableToolbar-searchField-10 {
+    width: 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+}

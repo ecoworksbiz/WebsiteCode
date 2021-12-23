@@ -1,0 +1,119 @@
+.BookingHistoryDetailsCol {
+  border: 1px solid #dbdbdb;
+  padding: 25px;
+  margin: 15px;
+}
+
+.BookingHistoryDetailsCol2 {
+  border: 1px solid #dbdbdb;
+  padding: 25px;
+  margin-left: 20px;
+}
+
+
+.BookingHistoryDetailsRow {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.Repeatbtn {
+  margin-top: 10px;
+  background-color: #FCC412;
+  border: none;
+}
+
+.Repeatbtn:hover {  
+  background-color: #FCC412 !important; 
+  border: none !important; 
+}
+
+.Repeatbtn:focus {  
+  background-color: #FCC412; 
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.BookingHistoryPlaceDetails1 {
+  font: 900 20px Lato;
+  color: #1c6686;
+}
+
+.Sortby{
+  position: relative;
+  top: 16px;
+  left: 29px;
+}
+
+.SortbyRooms{
+  position: relative;
+  top: 16px;
+}
+
+.SortbyLocation{
+  position: relative;
+  top: 16px;
+  
+}
+
+.BookingHistorybtn{
+  font: bold 17px Lato;
+  background-color: #095178; 
+  border: none;
+  position: relative;
+  top: 16px;
+}
+
+.BookingHistorybtn:hover {  
+  background-color: #095178 !important; 
+ 
+}
+
+.BookingHistorybtn:focus {   
+  background-color: #095178 !important; 
+  box-shadow: none !important;
+}
+
+.data{
+  padding-left: 10px;
+}
+
+
+#dropdown-basic {
+  color: #fff;
+  background-color: white;
+  border-color: #E1E1E1;
+}
+
+.DDroproomicon{
+  margin-left: 5px;
+color: #242B4B;
+font:900 18px Lato;
+}
+
+.DDropLocationicon{
+  margin-top: 2px;
+  margin-left: 5px;
+color: #242B4B;
+font:900 18px Lato;
+}
+
+.DDropLocation {
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 767px)
+{
+.BookingHistoryDetailsCol2 {  
+  margin-left: 0px;
+  margin-top: 45px;
+}
+}
+
+#dropdown-basic:focus { 
+  box-shadow: none !important;
+}
+
+.bookinghistory {
+  margin-bottom: 50px;
+}

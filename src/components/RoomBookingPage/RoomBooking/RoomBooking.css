@@ -1,0 +1,279 @@
+.RoomBookingTitle {
+  font: 900 48px Lato;
+  position: relative;
+  left: 143px;
+  top: 167px;
+}
+
+.RoomBookingContainer {
+  height: 300px;
+  background: aliceblue;
+}
+
+.RoomBookingURL {
+  background-color: #f1ead7;
+  padding-left: 10%;
+  font: 500 20px Lato;
+  color: #095178;
+  padding-top: 4px;
+  border-radius: 0 0px 10px 0px;
+}
+
+.BookingHistory {
+  font: bold 17px Lato;
+  background-color: #095178;
+  border-radius: 0 0 0px 10px;
+  border: none;
+}
+
+.BookingHistory:hover {
+  background-color: #095178 !important;
+  border: none !important;
+}
+
+.BookingHistory:focus {
+  background-color: #095178;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.RoomBookingBody {
+  padding-left: 10%;
+  padding-top: 50px;
+}
+
+.BookingLocation {
+  padding: 14px;
+}
+
+.Address1 {
+  font: 900 30px Lato;
+}
+
+.Address2 {
+  font: 100 17px Lato;
+}
+
+.BookingType {
+  border: 1px solid #dbdbdb;
+  padding: 25px;
+  margin-top: 30px;
+  font: 900 30px Lato;
+}
+
+.BookingRadioFormCol {
+  height: 65px;
+  background-color: #fff9e6;
+  margin-left: 35px;
+}
+
+.BookingRadioFormCol1 {
+  height: 65px;
+  background-color: #fff9e6;
+}
+
+.BookingRadioFormRow {
+  padding-top: 40px;
+}
+
+.RadioForm {
+  position: relative;
+  top: 8px;
+  left: 9px;
+  font: 100 18px Lato;
+}
+
+.form-check-input:checked {
+  background-color: #ffc10787;
+  border: 2px solid #ffc107;
+  margin-top: 3px;
+}
+
+.form-check-input[type="radio"] {
+  border-radius: 50%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.BookingDetailsRow {
+  border: 1px solid #dbdbdb;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+.BookingDetails {
+  font: 900 30px Lato;
+}
+
+.BookingCategory {  
+  margin-bottom: 20px;
+}
+
+
+.BookingPurposeRow {
+  margin-top: 20px;
+}
+
+.SelectTime {
+  font: 900 30px Lato;
+  margin-top: 20px;
+}
+
+.BookingConfirmButton {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#PromoCodeinput {
+  /* display: block; */
+  width: 72%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.BookingDetailsSeats {
+  font: 900 30px Lato;
+  margin-top: 50px;
+}
+
+.BookingConfirmButton {
+  background-color: #fcc412;
+  border: none;
+  color: #000000;
+  font: 900 20px Lato;
+}
+
+.BookingConfirmButton:hover {
+  background-color: #fcc412 !important;
+  border: none !important;
+}
+
+.BookingConfirmButton:focus {
+  background-color: #fcc412 !important;
+  box-shadow: none !important;
+}
+
+.map {
+  max-width: 169px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.location {
+  margin: 19px 3px 12px 0;
+  border: 1px solid #dbdbdb;
+}
+
+.RoomBookingCol1 {
+  height: 300px;
+  background-image: url("./../../../assests/images/roombookingbg.png");
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%;
+  background-position: center center; */
+}
+
+.RoomBookingCol2 {
+  height: 300px;
+  background-image: url("./../../../assests/images/bookingbg2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.react-datepicker__input-container input {
+  width: 72%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.BookingTimePicker input {
+  width: 72%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.errormsg {
+  font: 600 12px Lato;
+  color: red;
+}
+
+@media screen and (min-width: 375px) and (max-width: 474px) {
+  .BookingRadioFormCol {
+    height: 65px;
+    background-color: #fff9e6;
+    margin-left: 2px;
+    margin-top: 19px;
+  }
+}
+
+.bookingPurposeSelect {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  height: 33px !important;
+  margin-top: 6px;
+  color: #212529;
+}
+
+
+----------------------------------toaster----------------------------
+  #toast-container {
+  margin-top: 1rem;
+}
+
+#toast-container.toast-top-full-width > .toast {
+  max-width: 570px;
+}
+
+#toast-container > .toast-success {
+  background-color: #35c8c3;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#toast-container > .toast-success:hover {
+  background-color: #35c8c3;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+.BookingPagenav {
+  color: #095178;
+  text-decoration: none;
+}
+
+.BookingPagenav:hover {  
+  color: #095178;
+  text-decoration: none;
+}

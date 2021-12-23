@@ -1,0 +1,111 @@
+.BookingConfirmationRow {
+  border: 1px solid #216b8a;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.RoomBookingConfirmationColxl4 {
+  margin: 0 6px 0 51px;
+}
+
+.BookingConfirmation {
+  font: 900 30px Lato;
+}
+
+.BookingAmountConfirmationRow {
+  border: 1px solid #216b8a;
+  padding: 25px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.TotalAmountHeading {
+  font: 900 22px Lato;
+}
+
+.TotalAmountNo {
+  margin-top: 10px;
+  font: 900 30px Lato;
+  color: #216b8a;
+}
+
+.PromoCode {
+  font: 900 20px Lato;
+}
+
+.ApplyPromoCodeHere {
+  font: 900 16px Lato;
+  color: #216b8a;
+}
+
+.PromoCodeRow {
+  margin-top: 20px;
+}
+
+.ApplyPromo {
+  margin-top: 25px;
+}
+
+.userBookingDetails {
+  margin-top: 40px;
+}
+
+.ApplyButton {
+  background-color: #095178;
+  margin-top: -1px;
+  margin-left: 6px;
+  position: absolute;
+}
+
+.ApplyButton:hover {  
+  background-color: #095178 !important; 
+ 
+}
+
+.ApplyButton:focus {   
+  background-color: #095178 !important; 
+  box-shadow: none !important;
+}
+
+.ProceedButton {
+  width: 110%;
+  margin-top: 14px;
+  margin-left: -11px;
+  background-color: #fcc412;
+  border-radius: 5px;
+  border: none;
+  color: #000000;
+  font: 900 20px Lato;
+  margin-bottom: 100px;
+}
+
+.ProceedButton:hover {  
+  background-color: #FCC412 !important; 
+  border: none !important; 
+}
+
+.ProceedButton:focus {   
+  background-color: #FCC412 !important; 
+  box-shadow: none !important;
+}
+
+.Detailbox {
+  font: 600 13px Lato;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px)
+{
+  .ProceedButton {
+ margin-bottom: 260px;   
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px)
+{
+  .ProceedButton {
+ margin-bottom: 300px;   
+}
+
+}

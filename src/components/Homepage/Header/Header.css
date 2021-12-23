@@ -1,0 +1,451 @@
+/* .logorow {
+ background-image: url("./../../../assests/images/SliderBG.png");
+    background-position-y: 55px; 
+    background-position-x: -488px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}  */
+
+.logoSize {
+  padding-left: 55px;
+  height: auto;
+  max-width: 268 px;
+  width: 100%;
+}
+
+.header {
+  padding-left: 150px;
+}
+
+.profile {
+  margin-right: 25px;
+  height: 26px;
+  width: 38px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.search {
+  margin-right: 25px;
+  height: 27px;
+  width: 27px;
+  margin-top: 6px;
+}
+
+.navlinks {
+  font: 900 16px Lato;
+  color: #2b2d42;
+}
+
+.bookMeeting {
+  font: bold 18px Lato;
+  background-color: #095178;
+}
+
+.bookMeeting:hover {
+  background-color: #095178 !important;
+}
+
+.bookMeeting:focus {
+  background-color: #095178 !important;
+  box-shadow: none !important;
+}
+
+.navbody {
+  margin-top: 10px;
+}
+
+.box1:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#box2:hover {
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-color: white;
+}
+
+@media screen and (min-width: 1920px) {
+  img.bannersliderimg {
+    max-width: 1920px;
+    width: 101%;
+  }
+
+  .logoSize {
+    padding-left: 40px;
+    height: auto;
+    max-width: 197px;
+    width: 100%;
+    margin-top: 23px;
+  }
+
+  .navbtn {
+    position: absolute;
+    right: 0;
+  }
+
+  .bannerdiv {
+    height: 100%;
+    margin-left: 115px;
+    margin-top: -128px;
+    max-width: 1400px;
+    width: 100%;
+  }
+
+  .emailsubmitbtn {
+    background-color: #fff5d6;
+    border-color: #fff5d6 !important;
+    margin-left: -56px;
+    margin-top: -5px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .CityboxHeading {
+    font: 900 38px Lato;
+  }
+
+  .CityboxContent {
+    font: 900 15px Lato;
+    position: relative;
+    top: 9px;
+  }
+
+  .formcity {
+    margin-top: 25px;
+  }
+
+  .bannerimg {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+  }
+
+  .header {
+    padding-left: 50px;
+  }
+
+  .citygobtn {
+    width: 16%;
+    position: relative;
+    /* left: 251px;
+    top: -41px; */
+    border-radius: 8px;
+    border: none;
+    height: 41px;
+    background-color: #fcc412;
+  }
+
+  .profile {
+    margin-right: 15px;
+    height: 26px;
+    width: 38px;
+    margin-top: 6px;
+  }
+
+  .search {
+    margin-right: 17px;
+    height: 27px;
+    width: 27px;
+    margin-top: 6px;
+  }
+
+  .bookMeeting {
+    font: bold 17px Lato;
+    background-color: #095178;
+    left: -8px;
+    position: relative;
+  }
+
+  .navbtn {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .logoSize {
+    padding-left: 41px;
+    height: auto;
+    margin-top: 23px;
+  }
+
+  .navlinks {
+    font: 900 12px Lato;
+    color: #2b2d42;
+  }
+
+  .search {
+    margin-right: 15px;
+    height: 23px;
+    width: 23px;
+    margin-top: 5px;
+  }
+
+  .profile {
+    margin-right: 6px;
+    height: 22px;
+    width: 34px;
+    margin-top: 5px;
+  }
+
+  .bookMeeting {
+    font: bold 14px Lato;
+    background-color: #095178;
+    margin-right: -5px;
+  }
+
+  .header {
+    padding-left: 0;
+  }
+
+  .navbtn {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .mr-auto.navlinks.navbar-nav {
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  button.navbar-toggler {
+    position: relative;
+    left: 220px;
+  }
+
+  .logorow {
+    width: 35%;
+    margin-left: -135px;
+  }
+
+  .logoSize {
+    padding-left: 175px;
+    max-width: 257px;
+    height: unset;
+    margin: 0;
+    width: unset;
+  }
+
+  .navcol {
+    width: 62%;
+    position: absolute;
+    left: 16%;
+    max-width: 1000px;
+  }
+
+  .header {
+    margin-left: 90px;
+    margin-right: 35px;
+  }
+
+  button.navbar-toggler.collapsed {
+    position: relative;
+    left: 220px;
+  }
+
+  .navbar-nav {
+    width: 78%;
+  }
+
+  .bookMeeting {
+    font: bold 15px Lato;
+    background-color: #095178;
+    width: 131px;
+    margin-left: 145%;
+    height: 35px;
+    margin-top: -29px;
+  }
+
+  .profile {
+    margin-left: 286px;
+    height: 26px;
+    width: 38px;
+    margin-top: -28px;
+  }
+
+  .search {
+    margin-left: 238px;
+    height: 27px;
+    width: 27px;
+    margin-top: -34px;
+  }
+
+  div#responsive-navbar-nav {
+    position: absolute;
+    top: 52px;
+    z-index: 1;
+    right: -154px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .mr-auto.navlinks.navbar-nav {
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .logoSize {
+    max-width: 72px;
+    padding: 0;
+    height: unset;
+    margin: 0;
+    width: unset;
+  }
+
+  button.navbar-toggler {
+    position: relative;
+    left: 64%;
+    height: 35px;
+    top: -3px;
+    padding: 0;
+    width: 39px;
+  }
+
+  img.search {
+    margin-left: -57px;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+  }
+
+  img.profile {
+    margin-left: -23px;
+    height: 17px;
+    width: 23px;
+    margin-top: -18px;
+  }
+
+  button.bookMeeting.btn.btn-primary {
+    font: bold 8px Lato;
+    background-color: #095178;
+    width: 52%;
+    margin-left: 16px;
+    margin-top: -6px;
+  }
+
+  div#responsive-navbar-nav {
+    position: absolute;
+    top: 52px;
+    z-index: 1;
+    right: 12px;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: rgb(218 210 210 / 55%);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .allignCentre {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    font: 900 31px Lato;
+  }
+
+  .aboutUsContent {
+    font: normal 16px Lato;
+  }
+
+  .Aboutusrow {
+    margin-top: 93px;
+    padding-bottom: 120px;
+    padding-left: 105px;
+  }
+
+  .aboutUsImages {
+    max-height: unset;
+    left: -98px;
+    max-width: 95px;
+    margin-top: 8px;
+    position: absolute;
+  }
+
+  .missionCol {
+    margin-top: 62px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .mr-auto.navlinks.navbar-nav {
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .logoSize {
+    max-width: 72px;
+    padding: 0;
+    height: unset;
+    margin: 0;
+    width: unset;
+  }
+
+  button.navbar-toggler.collapsed {
+    height: 30px;
+    padding: 0;
+    width: 37px;
+  }
+
+  .navlinks {
+    font: 900 12px Lato;
+    color: #2b2d42;
+  }
+
+  .navbtn.navbar-nav {
+    margin-left: 82%;
+  }
+  img.search {
+    margin-left: -112px;
+    height: 20px;
+    width: 18px;
+    margin-top: -22px;
+  }
+
+  img.profile {
+    margin-left: -87px;
+    height: 20px;
+    width: 27px;
+    margin-top: -21px;
+  }
+
+  button.bookMeeting.btn.btn-primary {
+    font: bold 7px Lato;
+    background-color: #095178;
+    width: 48px;
+    margin-left: -56px;
+    margin-top: -27px;
+  }
+
+  div#responsive-navbar-nav {
+    position: absolute;
+    top: 52px;
+    z-index: 1;
+    right: 12px;
+  }
+
+  button.navbar-toggler {
+    position: relative;
+    left: 20px;
+    height: 31px;
+    top: 0px;
+    padding: 0;
+    width: 37px;
+  }
+}
+
+.fa-user {
+  cursor: pointer;
+}

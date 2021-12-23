@@ -1,0 +1,90 @@
+.whyEcoworkCol {
+  border: 2px solid #dfdfdf;
+  padding: 41px;
+  text-align: center;
+}
+
+.more {
+  transform: translateX(2%) translateY(91%);
+  font: 900 48px Lato;
+  color: #085078;
+}
+
+.whyEcoworkImage {
+  font-size: 59px;
+  padding-bottom: 17px;
+}
+
+.whyEcoworkImagerupee {
+  font-size: 60px;
+  padding-bottom: 17px;
+  max-width: 33px;
+}
+
+
+.WhyEcoworkH1 {
+  font: normal 18px Lato;
+  color: #085078;
+}
+
+.WhyEcoworkH2 {
+  font: normal 16px Lato;
+}
+
+.WhyEcoworksSectionRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 98px;
+  padding-bottom: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.WhyEcoworkH0 {
+  font: 900 48px Lato;
+}
+
+.WhyEcoworkRowcontainer {
+  margin-top: 42px;
+  padding: 0 10px 0 10px;
+}
+
+.whyEcoWorkRow2 {
+  padding: 0 10px 0 10px;
+}
+
+.morecol {
+  background-color: #fcc412;
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .morecol {
+    background-color: #fcc412;
+    padding-bottom: 133px;
+  }
+
+  .mobilecol {
+    height: 600px;
+  }
+
+  .mobile {
+    max-width: 400px;
+    margin-left: 45px;
+    margin-top: 22px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .morecol {
+    height: 265px;
+    background-color: #fcc412;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .morecol {
+    background-color: #fcc412;
+    padding-bottom: 146px;
+  }
+}

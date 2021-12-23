@@ -1,0 +1,22 @@
+.registerbtn {
+	width: 100%;
+}
+
+.genderRadio {
+	/* margin-left: 30px; */
+}
+
+.OccupationText {
+	margin-left: 5px;
+	color: #242b4b;
+	font: 100 16px Lato;
+}
+
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiSelect-root.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	height: 42px;
+	color: #212529;
+}
+

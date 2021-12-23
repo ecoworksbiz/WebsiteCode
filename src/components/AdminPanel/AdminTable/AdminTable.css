@@ -1,0 +1,20 @@
+.Adminheader {
+  position: relative;
+  top: 47px;
+  right: 211px;
+  z-index: 100;
+}
+
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
+
+.MuiInput-underline::after {
+  border-bottom: none !important;
+}
+
+.MuiFormControl-root.MuiTextField-root.MTableToolbar-searchField-10 {
+  width: 0px;
+  border: 1px solid #ced4da !important;
+  border-radius: 3px;
+}

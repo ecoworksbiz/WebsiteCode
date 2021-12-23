@@ -1,0 +1,701 @@
+.bannerimg {
+  max-width: 1400px;
+  width: 100%;
+  height: auto;
+}
+
+.citygobtn:hover{
+  background-color:#fcc412 !important;
+  border-color: #fcc412 !important;
+}
+
+.citybox {
+  background-color: white;
+  border: white 2px;
+  height: fit-content;
+  max-width: 450px;
+  width: 100%;
+  padding: 22px;
+  position: relative;
+  left: 146px;
+  top: 186px;
+  border-radius: 5px;
+  box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+}
+
+.bannerdiv {
+  height: 100%;
+  margin-left: 70px;
+  margin-top: -74px;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.float-container {
+  display: flex;
+}
+
+.scrollImg {
+  max-width: 30px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 111px;
+}
+
+.allignCentre {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  font: 900 48px Lato;
+  padding: 50px;
+}
+
+.allignAboutus {
+  font: 1000 18px Lato;
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+.Aboutusrow {
+  margin-top: 150px;
+  padding-bottom: 120px;
+  padding-left: 105px;
+}
+
+
+.aboutUsContent {
+  font: normal 24px Lato;
+}
+
+.aboutUsImages {
+  max-height: -webkit-fill-available;
+  right: 0;
+}
+
+.ourVision {
+  font: bold 20px Lato;
+}
+
+.ourVisionContent {
+  font: normal 16px Lato;
+}
+
+.CityboxHeading {
+  font: 900 48px Lato;
+}
+
+.CityboxContent {
+  font: 900 18px Lato;
+  position: relative;
+  top: 30px;
+}
+
+.aboutuscontainer {
+  text-align: center;
+}
+
+.formcity {
+  margin-top: 59px;
+}
+
+.cityselect {
+  height: 42px;
+}
+
+.citygobtn {
+  width: 13%;
+  margin-right: 34px;
+  border-radius: 8px;
+  border: none;
+  height: 41px;
+  background-color: #fcc412;
+}
+
+.drop {
+  position: relative;
+  left: 230px;
+  top: -31px;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+   
+  .scrollImg {    
+    padding-top: 60px;
+}
+  .missionCol.col-lg-2.col-sm-3.offset-lg-1 {
+    margin-left: -174px;
+}
+
+
+img.bookingImg.roombookingimg {
+    position: absolute;
+    left: 0;
+}
+  .background {
+    background-image: url("./../../../assests/images/bk.jpg");
+    background-position-y: -239px;
+    background-position-x: -161px;
+    background-repeat: no-repeat;
+    background-size: 2144px;
+}
+
+  .drop {
+    position: relative;
+    left: 268px;
+    top: -31px;
+  }
+
+  .citybox {
+    background-color: white;
+    border: white 2px;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 450px;
+    width: 100%;
+    z-index: 2;
+    padding: 22px;
+    position: relative;
+    left: 146px;
+    top: 126px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .formcity {
+    margin-top: 59px;
+    width: 384px;
+  }
+
+  .aboutUsImages {
+    max-height: -webkit-fill-available;
+    right: 0;
+    position: absolute;
+  }
+
+  .aboutUsContent {
+    font: normal 24px Lato;
+    width: 1029px;
+    margin-left: 397px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+
+  /* .fluid-container.Aboutusrow.row {
+    max-width: 100%;
+    width: 1128px;
+  } */
+  
+  .scrollImg {    
+    padding-top: 60px;
+}
+  
+
+  .background {
+    background-image: url("./../../../assests/images/bk.jpg");
+    background-position-y: -95px;
+    background-position-x: -41px;
+    background-repeat: no-repeat;
+    background-size: 1161px;
+}
+
+  .alicebannerrow {
+    width: 863px;
+  }
+
+  .bannersliderimg {
+    width: 100%;
+    max-width: 1900px;
+    height: 516px;
+  }
+
+  li.alice-carousel__stage-item {
+    width: 886px;
+  }
+
+  .citybox {
+    background-color: white;
+    border: white 2px;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 342px;
+    width: 100%;
+    z-index: 2;
+    padding: 22px;
+    position: absolute;
+    left: 111px;
+    top: 201px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .bannerdiv {
+    height: 100%;
+    margin-left: 379px;
+    margin-top: -64px;
+    max-width: 1900px;
+    width: 100%;
+  }
+
+  .aboutUsContent {
+    font: normal 24px Lato;
+    /* width: 858px;
+    margin-left: 153px; */
+  }
+
+  .drop {
+    position: relative;
+    left: 193px;
+    top: -31px;
+  }
+ 
+  .Aboutusrow {
+    margin-top: 70px;
+    padding: 0 63px 100px 100px;    
+  }
+
+   .aboutUsImages {
+    max-height: 208px;
+    max-width: 170px;
+    width: 100%;
+    right: 0px;
+    top: 8px;
+    position: absolute;
+}
+
+.aboutUsImagesmission {
+  max-height: 191px;
+  max-width: 139px;
+  width: 100%;
+  right: 0px;
+  top: 8px;
+  position: absolute;
+}
+
+  .missionCol {
+    margin-left: -36px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+
+  .scrollImg {    
+    padding-top: 60px;
+}
+
+  .background {   
+    background-image: url("./../../../assests/images/bk.jpg");
+    background-position-y: -130px;
+    background-position-x: -54px;
+    background-repeat: no-repeat;
+    background-size: 1161px;
+}
+  .drop {
+    position: relative;
+    left: 180px;
+    top: -31px;
+  }
+
+  .citybox {
+    border: white 2px;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 309px;
+    width: 100%;
+    padding: 22px;
+    position: absolute;
+    left: 64px;
+    z-index: 2;
+    top: 200px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .CityboxHeading {
+    font: 900 25px Lato;
+  }
+
+  .CityboxContent {
+    font: 900 14px Lato;
+    position: relative;
+    top: 6px;
+  }
+
+  .formcity {
+    margin-top: 15px;
+  }
+
+  .citygobtn {
+    position: relative;
+    /* left: 222px;
+    top: -41px; */
+    width: 16%;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: none;
+    height: 41px;
+    background-color: #fcc412;
+  }
+
+  .bannerdiv {
+    height: 100%;
+    margin-left: 308px;
+    margin-top: -74px;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  img.bannersliderimg {
+    max-width: 1200px;
+    height: 500px;
+    width: 100%;
+  }
+
+ 
+  .Aboutusrow {
+    margin-top: 70px;
+    padding: 0 63px 100px 100px;    
+  }
+  
+   .aboutUsImages {
+    max-height: 208px;
+    max-width: 170px;
+    width: 100%;
+    right: 0px;
+    top: 8px;
+    position: absolute;
+}
+
+.aboutUsImagesmission {
+  max-height: 191px;
+  max-width: 139px;
+  width: 100%;
+  right: 0px;
+  top: 8px;
+  position: absolute;
+}
+
+  .missionCol {
+    margin-left: 36px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+
+  .background { 
+    background-image: url("./../../../assests/images/bk.jpg");
+    background-position-y: -93px;
+    background-position-x: -76px;
+    background-repeat: no-repeat;
+    background-size: 1017px;
+}
+
+  .drop {
+    position: relative;
+    left: 128px;
+    top: -31px;
+  }
+
+  .bannercontainer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bannerdiv {
+    height: 100%;
+    margin-left: 241px;
+    position: relative;
+    max-width: 1900px;
+    top: 68px;
+    width: 100%;
+  }
+
+  .citybox {
+    border: white 2px;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 232px;
+    width: 100%;
+    margin-left: -58px;
+    z-index: 1;
+    margin-top: 32px;
+    padding: 22px;
+    position: absolute;
+    left: 120px;
+    top: 126px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .CityboxHeading {
+    font: 900 19px Lato;
+  }
+
+  .CityboxContent {
+    font: 900 10px Lato;
+    position: relative;
+    top: 10px;
+  }
+
+  .citygobtn {
+    width: 17%;
+    position: relative;
+    left: -51px;
+    border-radius: 8px;
+    border: none;
+    height: 41px;
+    background-color: #fcc412;
+  }
+
+  .formcity {
+    margin-top: 19px;
+    width: 290px;
+  }
+
+  img.bannersliderimg {
+    max-width: 1953px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .aboutusrow1 {
+    /* left: -15%; */
+    margin-top: 11px;
+  }
+
+  .aboutUsImages {
+    max-width: 116px;
+  }
+
+  .missionCol {
+    /* left: -15%; */
+    margin-top: 60px;
+  }
+
+  .aboutusrow3 {
+    margin-top: 55px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+
+  .background {
+    background-image: url("./../../../assests/images/bk.jpg");
+    background-position-y: -140px;
+    background-position-x: -196px;
+    background-repeat: no-repeat;
+    background-size: 1127px;
+}
+
+  .aboutusrow3 {
+    margin-top: 7px;
+  }
+
+  .drop {
+    position: relative;
+    left: 111px;
+    top: -31px;
+  }
+
+  .citybox {
+    border: white 2px;
+    height: -moz-fit-content;
+    height: fit-content;
+    z-index: 1;
+    width: fit-content;
+    padding: 16px;
+    position: absolute;
+    left: 4px;
+    top: 121px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .CityboxHeading {
+    font: 900 24px Lato;
+  }
+
+  .CityboxContent {
+    font: 900 9px Lato;
+    position: relative;
+    top: -7px;
+  }
+
+  .formcity {
+    margin-top: 0px;
+    width: 185px;
+  }
+
+  .citygobtn {
+    width: 24%;
+    margin-right: 3px;
+    border-radius: 8px;
+    border: none;
+    height: 41px;
+    background-color: #fcc412;
+  }
+
+  .bannerdiv {
+    height: 100%;
+    margin-left: 210px;
+    margin-top: -9px;
+    max-width: 718px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    left: -99px;
+  }
+
+  img.bannersliderimg {
+    max-width: 700px;
+    height: 380px;
+    width: 100%;
+  }
+
+  .scrollImg {
+    max-width: 30px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 72px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+
+  .background {
+  background-image: url("./../../../assests/images/bk.jpg");
+    background-position-y: -102px;
+    background-position-x: -197px;
+    background-repeat: no-repeat;
+    background-size: 1058px;
+}
+  .missionCol.col-lg-2.col-sm-3 {
+    margin-top: 40px;
+  }
+
+  .drop {
+    position: relative;
+    left: 84px;
+    top: -26px;
+  }
+
+  .citybox {
+    border: white 2px;
+    height: fit-content;
+    max-width: 249px;
+    width: 184px;
+    padding: 12px 0 1px 13px;
+    position: absolute;
+    z-index: 1;
+    left: 7px;
+    top: 150px;
+    border-radius: 5px;
+    box-shadow: rgb(46 51 51 / 5%) 2px 5px 20px 20px;
+  }
+
+  .CityboxHeading {
+    font: 900 16px Lato;
+  }
+
+  .CityboxContent {
+    font: 900 9px Lato;
+    position: relative;
+    top: 0px;
+  }
+
+  .formcity {
+    margin-top: 8px;
+  }
+
+  .cityselect {
+    height: 28px;
+  }
+
+  .citygobtn {
+    width: 20%;
+    margin-right: 28px;
+    border-radius: 8px;
+    border: none;
+    height: 32px;
+    background-color: #fcc412;
+  }
+
+  .float-child.bannerdiv {
+    height: 100%;
+    margin-left: 81px;
+    margin-top: -3px;
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+  }
+
+  img.bannersliderimg {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .scrollImg {
+    max-width: 30px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 63px;
+  }
+
+  .allignAboutus {
+    font: 1000 18px Lato;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+  }
+
+  .allignCentre {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    font: 900 23px Lato;
+  }
+
+  .aboutUsContent {
+    font: normal 12px Lato;
+  }
+
+  .Aboutusrow {
+    margin-top: 82px;
+    padding-bottom: 120px;
+    padding-left: 105px;
+  }
+
+  .aboutUsImages {
+    max-height: none;
+    max-width: 109px;
+    right: 0;
+    margin-top: 27px;
+    left: -105px;
+    position: absolute;
+  }
+
+  .ourVisionContent {
+    font: normal 11px Lato;
+  }
+
+  .aboutusrow3.col-lg-2.col-sm-9 {
+    margin-top: 21px;
+  }
+}

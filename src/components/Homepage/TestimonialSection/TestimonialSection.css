@@ -1,0 +1,115 @@
+.box {
+  font: normal 18px Lato;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  color: #0e0e0e;
+  position: relative;
+  height: 172px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+/* .avatarRow:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  border-top: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
+} */
+
+.avatar {
+  width: 4em;
+  height: 4em;
+  border-radius: 100%;
+}
+
+.avatarRow {
+  padding-left: 21px;
+  padding-top: 20px;
+}
+
+.TestimonialRow {
+  background-color: #eeeeee;
+}
+
+.Row1 {
+  padding: 100px 0 60px 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.heading2 {
+  font: 900 21px Lato;
+  margin-top: 90px;
+}
+
+.heading1 {
+  font: 900 48px Lato;
+  top: 25px;
+  position: relative;
+}
+
+.TestimonalCol1 {
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  padding: 0;
+  background-color: #eeeeee;
+  margin-left: -2px;
+}
+
+.testrow1 {
+  height: 288px;
+}
+
+.scrolltestimonial {
+  display: inline-block;
+  float: none;
+  position: relative;
+  left: 334px;
+}
+
+@media screen and (min-width: 1920px) {
+  .TestimonalCol1 {
+    width: 17%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .TestimonalCol1 {
+    width: 19%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .TestimonalCol1 {
+    text-align: center;
+    width: 63%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .TestimonalCol1 {
+    text-align: center;
+    width: 63%;
+  }
+
+  .heading1 {
+    font: 900 27px Lato;
+    top: 25px;
+    position: relative;
+  }
+
+  .heading2 {
+    font: 900 12px Lato;
+    top: 115px;
+    position: relative;
+  }
+}

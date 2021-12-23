@@ -1,0 +1,48 @@
+#root > div {
+  position: relative;
+}
+
+#loader {
+  opacity: 0.5;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2000;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-load-err {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page-load-err__icon {
+  width: 32px;
+  height: 32px;
+  /* animation: rotate 1s linear infinite; */
+  transform-origin: center center;
+  display: inline-block;
+}
+.icon-loader {
+  fill: #01b2ac;
+}
+.icon-alert {
+  fill: #da291c;
+}
+.page-load-err__text {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #333;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+

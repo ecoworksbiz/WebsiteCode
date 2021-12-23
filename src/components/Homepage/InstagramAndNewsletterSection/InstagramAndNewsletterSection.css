@@ -1,0 +1,333 @@
+.heading {
+  font: 900 48px Lato;
+  padding: 15px 0 17px 0;
+  color: #085078;
+}
+
+.emailsubmitbtn:hover{
+  background-color:unset !important;
+  border-color: unset !important;
+}
+
+.emailsubmitbtn:focus{
+  background-color:unset !important;
+  border-color: unset !important;
+  box-shadow: none !important;;
+}
+
+
+#contactUs {
+  margin-top: 80px;
+}
+
+.SubHeading {
+  font: bold 21px Lato;
+}
+
+.Content {
+  font: normal 18px Lato;
+  line-height: 1.5;
+}
+
+.subcontent {
+  font: italic 21px LucidaCalligraphy;
+}
+
+.instagramSection {
+  padding-top: 69px;
+}
+
+.instagramRow1 {
+  left: 28%;
+  transform: translateX(-28%) translateY(30%);
+}
+
+.instagramRow2 {
+  left: 20%;
+  transform: translateX(-28%) translateY(30%);
+}
+
+img.sliderimg1 {
+  max-width: 252px;
+}
+
+.imageSlider {
+  padding: 145px 0 60px 0;
+}
+
+.emailsubmitbtn {
+  background-color: #fff5d6;
+  border-color: #fff5d6 !important;
+}
+
+.emailCaption {
+  transform: translateX(28%) translateY(-37%);
+  font: 900 48px Lato;
+}
+
+.emailbox {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #fff5d6;
+}
+
+.emailsection {
+  padding-top: 140px;
+  padding-bottom: 40px;
+  background-color: #fff5d6;
+}
+
+.emailform {
+  transform: translateX(13%) translateY(-3%);
+}
+
+input.emailbox.form-control:focus {
+  background: unset;
+  box-shadow: none;
+  border-color: black;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .emailsubmitbtn {
+    position: absolute;
+
+    top: -6px;
+    border: none;
+  }
+
+  .emailbox {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff5d6;
+    width: 400px;
+  }
+
+  .instagramRow1 {
+    left: 28%;
+    transform: translateX(-45%) translateY(30%);
+  }
+
+  .instagramRow2 {
+    left: 20%;
+    transform: translateX(-29%) translateY(32%);
+  }
+
+  .heading {
+    font: 900 38px Lato;
+    padding: 15px 0 17px 0;
+    color: #085078;
+  }
+
+  .emailform {
+    transform: translateX(26%) translateY(-14%);
+  }
+
+  .emailCaption {
+    transform: translateX(28%) translateY(-37%);
+    font: 900 41px Lato;
+  }
+
+  ul.alice-carousel__stage {
+    transition: transform 0ms ease 0ms;
+    transform: translate3d(-596px, 0px, 0px);
+  }
+
+  li.alice-carousel__stage-item {
+    padding-right: 24px !important;
+    width: 727px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .emailsubmitbtn {
+    background-color: #fff5d6;
+    border-color: #fff5d6 !important;
+    position: absolute;
+    top: -6px;
+    left: -44px;
+  }
+
+  .emailbox {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff5d6;
+    width: 370px;
+  }
+
+  .instagramRow1 {
+    left: 28%;
+    transform: translateX(-50%) translateY(30%);
+  }
+
+  .heading {
+    font: 900 40px Lato;
+    padding: 15px 0 17px 0;
+    color: #085078;
+  }
+
+  .instagramRow2 {
+    left: 20%;
+    transform: translateX(-34%) translateY(30%);
+  }
+
+  .emailCaption {
+    transform: translateX(12%) translateY(-37%);
+    font: 900 36px Lato;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .instagramRow1 {
+    left: 28%;
+    transform: translateX(-55%) translateY(19%);
+  }
+
+  .instagramRow2 {
+    left: 13%;
+    transform: translateX(-28%) translateY(19%);
+  }
+
+  .emailCaption {
+    transform: translateX(15%) translateY(-37%);
+    font: 900 25px Lato;
+  }
+
+  .emailsubmitbtn {
+    margin-top: -30px;
+    position: absolute;
+    top: 10px;
+    left: -44px;
+  }
+
+  .emailbox {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff5d6;
+    width: 265px;
+    margin-top: -16px;
+  }
+
+  .heading {
+    font: 900 35px Lato;
+    padding: 15px 0 17px 0;
+    color: #085078;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .ecoworkAppCol {
+    left: 28%;
+    transform: translateX(-26%) translateY(30%);
+  }
+
+  .instagramRow1 {
+    left: 17%;
+    transform: translateX(-28%) translateY(30%);
+  }
+
+  .heading {
+    font: 900 35px Lato;
+    padding: 15px 0 17px 0;
+    color: #085078;
+  }
+
+  .instagramRow2 {
+    left: 13%;
+    transform: translateX(-28%) translateY(30%);
+  }
+
+  .emailCaption {
+    transform: translateX(5%) translateY(-37%);
+    font: 900 17px Lato;
+  }
+
+  .emailbox {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff5d6;
+    width: 167%;
+  }
+
+  .emailsubmitbtn {
+    background-color: #fff5d6;
+    position: relative;
+    border-color: #fff5d6 !important;
+    right: -25px;
+    top: -3px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  #contactUs {
+    margin-top: -90px;
+  }
+
+  .instagramRow1 {
+    left: 28%;
+    transform: translateX(-49%) translateY(30%);
+  }
+
+  .heading {
+    font: 900 29px Lato;
+    padding: 15px 0 17px 0;
+    color: #085078;
+  }
+
+  .instagramRow2 {
+    left: 20%;
+    transform: translateX(-42%) translateY(30%);
+  }
+
+  .Content {
+    font: normal 16px Lato;
+    line-height: 1.3;
+  }
+
+  .emailCaption {
+    transform: translateX(6%) translateY(-210%);
+    font: 900 20px Lato;
+    width: max-content;
+  }
+
+  .emailform {
+    transform: translateX(12%) translateY(-125%);
+  }
+
+  .emailbox {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff5d6;
+    width: 255px;
+    top: 54px;
+    position: relative;
+  }
+
+  .emailsubmitbtn {
+    background-color: #fff5d6;
+    border-color: #fff5d6 !important;
+    position: relative;
+    top: -3px;
+    left: 211px;
+  }
+
+  .instagramSection {
+    padding-top: 69px;
+    margin-top: -229px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 339px) and (max-width: 499px) {
+  
+
+  .emailform {
+    /* transform: translateX(-188%) translateY(-81%); */
+    margin: 25px 0 20px 0;
+  }
+
+  .emailCaption {
+    transform: translateX(6%) translateY(-210%);
+    font: 900 20px Lato;
+    width: max-content;
+  }
+}

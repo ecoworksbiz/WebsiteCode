@@ -1,0 +1,74 @@
+.loginbtn {
+  width: 100%;
+}
+
+.forgetPassword {
+  text-align: end;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.textcenter {
+  justify-content: center;
+  display: flex;
+  margin: 0;
+}
+
+.social_btfacebook {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.social_btgoogle {
+  width: 100%;
+}
+
+.signupLink {
+  color: orange;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(19, 18, 18);
+  padding: 18px;
+  font: 14px Lato bold;
+}
+
+.kep-login-facebook.metro {
+  border-radius: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #0d6efd;
+  height: 41px;
+  padding: 10px;
+  border-color: #0d6efd;
+  font-size: smaller;
+}
+
+
+
+.googlelogin {
+  width: 100%;
+  margin-bottom: 11px;
+  background-color: rgb(13 110 253) !important;  
+  color: rgb(255 255 255) !important;
+}
+
+/* button.social_btgoogle.btn.btn-primary {
+  position: relative;
+  top: -51px;
+} */
+
+.googlelogin div {
+  margin-right: 10px;  
+  padding-left: 178px !important;
+  border-radius: 2px;
+  background: rgb(13 110 253) !important;
+}
+
+button.btn.btn-primary.mr-2.Sendbtn {
+  width: 100%;
+  margin-left: 3px;
+  margin-top: 17px;
+}
